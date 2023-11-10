@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ES-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="../imagenes/huella-de-mascota.png" type="image/png" sizes="16x16">
+</head>
+<body>
+    <form method="post" action="" id="formulario1">
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            <label for="nombre">Nombre completo</label>
+            <input type="text" name="nombre" id="nombre" placeholder="escribe nombre completo">
+            <br>
+            <label for="user_email">Email: </label>
+            <input type="email" name="email" id="user_mail">
+            <br>
+            <label for="fecha_nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            <br>
+            <label for="perros-disponibles">Perros disponibles</label>
+            <select id="perros-disponibles" name="perros-disponibles">
+                <option value="luna">Luna</option>
+                <option value="tobi">Tobi</option>
+                <option value="milu">milú</option>
+            </select>
+            <br>
+            <label for="explica">Explica por que quieres adoptar</label>
+            <br>
+            <textarea id="explica" name="explica" placeholder="Describe en 500 palabras"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </fieldset> 
+    </form>
+</body>
+</html>
